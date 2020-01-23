@@ -8,15 +8,17 @@
 		<link rel="stylesheet" type="text/css" href="style.css" />
 	</head>
 	<body>
-		<form action="/" enctype="multipart/form-data" method="post">
-			<!-- Field to choose the files to be uploaded -->
-			<label class="up_styles">
-				<input type="file" name="upload" multiple />
-			</label>
+		<div class="add">
+			<form id="form" action="/" enctype="multipart/form-data" method="post">
+				<!-- Field to choose the files to be uploaded -->
+				<label class="up_styles">
+					<input type="file" name="upload" multiple />
+				</label>
 
-			<!-- Button to upload the choosed files -->
-			<input class="sub" type="submit" value="Upload" />
-		</form>
+				<!-- Button to upload the choosed files -->
+				<input class="sub" type="submit" value="Upload" />
+			</form>
+		</div>
+		<script src="./index.js"></script>
 	</body>
 </html>
-

@@ -45,11 +45,14 @@ app.post('/login', (req, res) => {
 })
 
 function vt(req,res,next){
-    if(req.headrs["token"]){
-        jwt.verify(req.headrs.token, JWT_SECRET,(err,dec)=>{
+    console.log("i'm here",req.headers);
+    if(req.headers.token){
+        console.log("i have token");
+        jwt.verify(req.headers.token, JWT_SECRET,(err,dec)=>{
             if(err){
                 res.sendStatus(401)
             }else{
+                console.log("i pass the test");
                 next()
             }
         })
