@@ -1,5 +1,179 @@
-html,body{
-    background-color: burlywood;
+*{
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: burlywood;
+    height: 100vh;
+}
+
+section{
+    height: 100%;
+    position: relative;
+}
+
+.add{
+    display: none;
+}
+
+
+
+#title{
+    text-align: center;
+    padding: .5em;
+    font-size: 5em;
+    font-family: 'Rubik', sans-serif;
+    /* font-weight: 800; */
+	/* position: relative; */
+	/* letter-spacing: -5px; */
+   
+}
+
+.area1{
+    grid-area: area1;
+    font-family: 'Rubik', sans-serif;
+    font-weight:300 ;
+    font-size: .9em;
+    padding: 2em;
+    /* position: relative; */
+}
+
+.area2{
+    grid-area: area2;
+}
+.area3{
+    grid-area: area3;
+    overflow: hidden;
+    background-image: url("./rebbe/1.jpg");
+    background-size: cover;
+    background-position: center center ;
+    max-width: 100%;
+    filter: sepia();
+    transition: all ease-in-out .7s;
+}
+.area4{
+    grid-area: area4;
+}
+.area5{
+    grid-area: area5;
+}
+.area6{
+    grid-area: area6;
+ 
+
+}
+.area7{
+    grid-area: area7;
+}
+.area8{
+    grid-area: area8;
+}
+
+.grid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border:2px solid black;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    height: 700px;
+    /* margin: 4em auto; */
+    /* margin-bottom: 4em; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 30% 10% 20% 10% 30%;
+    grid-template-areas:
+    "area1 area1 area5 area6"
+    "area1 area1 area5 area7"
+    "area2 area3 area5 area7"
+    "area2 area3 area8 area8"
+    "area4 area4 area8 area8"
+}
+
+.grid>*{
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid>*:hover{
+    background-color: black;
+    color: burlywood;
+}
+
+
+#qoute-sign {
+    display: table;
+    white-space: nowrap;
+    width: 100%;
+    font-size: xx-large;
+  }
+  #qoute-sign:before,
+  #qoute-sign:after {
+    border-top: 2px solid rgb(0, 0, 0);
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.3em;
+    width: 40%;
+  }
+  #qoute-sign:before {
+    right: 1.5%;
+  }
+  #qoute-sign:after {
+    left: 1.5%;
+  }
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #b39164;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #aa7c40;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #795e3a;
+  }
+
+
+
+  @media (max-width: 700px) {
+    .grid {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border:2px solid black;
+        width: 80%;
+        text-align: center;
+        height: 1500px;
+        margin: 4em auto;
+        /* margin-bottom: 4em; */
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 15% 5% 10% 5% 15%;
+        grid-template-areas:
+        "area1 area1"
+        "area1 area1"
+        "area2 area3"
+        "area2 area3"
+        "area4 area4"
+        "area5 area6"
+        "area5 area7"
+        "area5 area7"
+        "area8 area8"
+        "area8 area8"
+    }
+  }  

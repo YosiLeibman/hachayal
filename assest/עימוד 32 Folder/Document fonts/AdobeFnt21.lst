@@ -1,0 +1,417 @@
+%!Adobe-FontList 1.20
+%Locale:0x40d
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeHebrew-Regular
+FamilyName:Adobe Hebrew
+StyleName:Regular
+FullName:Adobe Hebrew Regular
+MenuName:Adobe Hebrew
+StyleBits:0
+FamilyNameNative:Adobe Hebrew
+StyleNameNative:Regular
+FullNameNative:Adobe Hebrew Regular
+WritingScript:Hebrew
+OutlineFileName:C:\Users\mhaji\Desktop\עימוד 32 Folder\Document fonts\AdobeHebrew-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:73124
+FileModTime:1574829002
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Adobe Hebrew
+NameArray:0,Mac,4,Adobe Hebrew Regular
+NameArray:0,Win,1,Adobe Hebrew
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Cambria
+FamilyName:Cambria
+StyleName:Regular
+FullName:Cambria
+MenuName:Cambria
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\mhaji\Desktop\עימוד 32 Folder\Document fonts\cambria.ttc
+TTCOffset:32
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1792664
+FileModTime:1552970649
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Cambria
+NameArray:0,Win,1,Cambria
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CambriaMath
+FamilyName:Cambria Math
+StyleName:Regular
+FullName:Cambria Math
+MenuName:Cambria Math
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\mhaji\Desktop\עימוד 32 Folder\Document fonts\cambria.ttc
+TTCOffset:380
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1792664
+FileModTime:1552970649
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Cambria Math
+NameArray:0,Win,1,Cambria Math
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Cambria-Bold
+FamilyName:Cambria
+StyleName:Bold
+FullName:Cambria Bold
+MenuName:Cambria
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\mhaji\Desktop\עימוד 32 Folder\Document fonts\cambriab.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:841440
+FileModTime:1552970658
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Cambria Bold
+NameArray:0,Win,1,Cambria
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:David
+FamilyName:David
+StyleName:Regular
+FullName:David
+MenuName:David
+StyleBits:0
+FamilyNameNative:David
+StyleNameNative:Regular
+FullNameNative:David Regular
+WritingScript:Hebrew
+OutlineFileName:C:\Users\mhaji\Desktop\עימוד 32 Folder\Document fonts\david.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:95640
+FileModTime:1551461700
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,David
+NameArray:0,Win,1,David
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:David-Bold
+FamilyName:David
+StyleName:Bold
+FullName:David Bold
+MenuName:David
+StyleBits:2
+FamilyNameNative:David
+StyleNameNative:Bold
+FullNameNative:David Bold
+WritingScript:Hebrew
+OutlineFileName:C:\Users\mhaji\Desktop\עימוד 32 Folder\Document fonts\davidbd.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:95880
+FileModTime:1551461700
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,David Bold
+NameArray:0,Win,1,David
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:FbFrankReal-Light
+FamilyName:FbFrankReal Light
+StyleName:Regular
+FullName:FbFrankReal Light
+MenuName:FbFrankReal Light
+StyleBits:0
+FamilyNameNative:FbFrankReal Light
+StyleNameNative:Regular
+FullNameNative:FbFrankReal Light Regular
+WritingScript:Hebrew
+OutlineFileName:C:\Users\mhaji\Desktop\עימוד 32 Folder\Document fonts\FBFRANKREALLIGHT.TTF
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:72112
+FileModTime:1441722134
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,FbFrankReal Light
+NameArray:0,Win,1,FbFrankReal Light
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:FbFrankRuelBook-Bold
+FamilyName:FbFrankRuelBook
+StyleName:Bold
+FullName:FbFrankRuelBook-Bold
+MenuName:FbFrankRuelBook Bold
+StyleBits:2
+FamilyNameNative:FbFrankRuelBook
+StyleNameNative:Bold
+FullNameNative:FbFrankRuelBook Bold
+WritingScript:Hebrew
+OutlineFileName:C:\Users\mhaji\Desktop\עימוד 32 Folder\Document fonts\FBFRANKRUELBOOK-BOLD.OTF
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:70316
+FileModTime:1441722134
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,FbFrankRuelBook Bold
+NameArray:0,Win,1,FbFrankRuelBook Bold
+NameArray:0,Win,16,FbFrankRuelBook
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:FbFrankRuelBook-Regular
+FamilyName:FbFrankRuelBook
+StyleName:Regular
+FullName:FbFrankRuelBook-Regular
+MenuName:FbFrankRuelBook Regular
+StyleBits:0
+FamilyNameNative:FbFrankRuelBook
+StyleNameNative:Regular
+FullNameNative:FbFrankRuelBook Regular
+WritingScript:Hebrew
+OutlineFileName:C:\Users\mhaji\Desktop\עימוד 32 Folder\Document fonts\FBFRANKRUELBOOK-REGULAR.OTF
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:70156
+FileModTime:1441722134
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,FbFrankRuelBook Regular
+NameArray:0,Win,1,FbFrankRuelBook Regular
+NameArray:0,Win,16,FbFrankRuelBook
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:FrankRuhlLibre-Black
+FamilyName:Frank Ruhl Libre
+StyleName:Black
+FullName:FrankRuhlLibre-Black
+MenuName:Frank Ruhl Libre Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\mhaji\Desktop\עימוד 32 Folder\Document fonts\FrankRuhlLibre-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:91860
+FileModTime:1465938000
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Frank Ruhl Libre Black
+NameArray:0,Win,1,Frank Ruhl Libre Black
+NameArray:0,Win,16,Frank Ruhl Libre
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:News-Bold
+FamilyName:News
+StyleName:Bold
+FullName:News Bold
+MenuName:News
+StyleBits:2
+FamilyNameNative:News
+StyleNameNative:Bold
+FullNameNative:News Bold
+WritingScript:Hebrew
+OutlineFileName:C:\Users\mhaji\Desktop\עימוד 32 Folder\Document fonts\News_Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:31620
+FileModTime:1526414052
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,News Bold
+NameArray:0,Win,1,News
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:News-ExtraBold
+FamilyName:News
+StyleName:ExtraBold
+FullName:News ExtraBold
+MenuName:News
+StyleBits:3
+FamilyNameNative:News
+StyleNameNative:ExtraBold
+FullNameNative:News ExtraBold
+WritingScript:Hebrew
+OutlineFileName:C:\Users\mhaji\Desktop\עימוד 32 Folder\Document fonts\News_ExtraBold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:31996
+FileModTime:1526414054
+WeightClass:800
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,News ExtraBold
+NameArray:0,Win,1,News
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:News-Light
+FamilyName:News
+StyleName:Light
+FullName:News Light
+MenuName:News
+StyleBits:1
+FamilyNameNative:News
+StyleNameNative:Light
+FullNameNative:News Light
+WritingScript:Hebrew
+OutlineFileName:C:\Users\mhaji\Desktop\עימוד 32 Folder\Document fonts\News_light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:21240
+FileModTime:1526414054
+WeightClass:300
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,News Light
+NameArray:0,Win,1,News
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:News
+FamilyName:News
+StyleName:Regular
+FullName:News
+MenuName:News
+StyleBits:0
+FamilyNameNative:News
+StyleNameNative:Regular
+FullNameNative:News Regular
+WritingScript:Hebrew
+OutlineFileName:C:\Users\mhaji\Desktop\עימוד 32 Folder\Document fonts\News_regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:31564
+FileModTime:1526414056
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,News
+NameArray:0,Win,1,News
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:TimesNewRomanPSMT
+FamilyName:Times New Roman
+StyleName:Regular
+FullName:Times New Roman
+MenuName:Times New Roman
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\mhaji\Desktop\עימוד 32 Folder\Document fonts\times.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1195688
+FileModTime:1552970651
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Times New Roman
+NameArray:0,Win,1,Times New Roman
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:TimesNewRomanPS-BoldMT
+FamilyName:Times New Roman
+StyleName:Bold
+FullName:Times New Roman Bold
+MenuName:Times New Roman
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\mhaji\Desktop\עימוד 32 Folder\Document fonts\timesbd.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1175904
+FileModTime:1552970651
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Times New Roman Bold
+NameArray:0,Win,1,Times New Roman
+%EndFont
+
