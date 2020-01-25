@@ -71,16 +71,18 @@ section{
 }
 
 .grid{
-    position: absolute;
+    /* justify-content: center;
+    align-items: center; */
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     border:2px solid black;
     width: 80%;
     max-width: 800px;
     text-align: center;
     height: 700px;
-    /* margin: 4em auto; */
+    margin: 4em auto;
     /* margin-bottom: 4em; */
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -151,10 +153,10 @@ section{
 
   @media (max-width: 700px) {
     .grid {
-        position: absolute;
+        /* position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); */
         border:2px solid black;
         width: 80%;
         text-align: center;
