@@ -57,5 +57,37 @@ area1.addEventListener("mouseenter",e=>{
     sign.style.borderColor = "burlywood"
 })
 area1.addEventListener("mouseleave",e=>{
-
+    
 })
+
+// ========================================================
+
+window.onload = async () =>{
+    const data = await fetch ("/all")
+    const files = await data.json()
+    const sorted = files.map(f => Number(f.split(".")[0]))
+    sorted.sort((a,b)=>a-b)
+    console.log(sorted);
+    console.log(files);
+    console.log(data);
+    const last = document.querySelector('#last-a')
+    const lastd = document.querySelector('#last-a-d')
+    const area6 = document.querySelector('.area6')
+    
+    last.href = `/data/${sorted[files.length-1]}.pdf`
+    lastd.href = `/data/${sorted[files.length-1]}.pdf`
+    
+    area6.addEventListener('mouseenter',e=>{
+        last.style.color = "burlywood"
+        lastd.style.color = "burlywood"
+        last.style.border = "burlywood solid 1px"
+        lastd.style.border = "burlywood solid 1px"
+    })
+    area6.addEventListener('mouseleave',e=>{
+        last.style.color = "black"
+        lastd.style.color = "black"
+        last.style.border = "black solid 1px"
+        lastd.style.border = "black solid 1px"
+    })
+}
+

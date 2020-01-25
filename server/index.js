@@ -2,6 +2,7 @@ const express = require('express')
 const formidable = require('formidable')
 const cors = require('cors')
 const jwt = require('jsonwebtoken')
+const fs = require('fs')
 const {JWT_SECRET,PASSWORD} =require('./config')
 
 const app = express()
@@ -22,7 +23,7 @@ app.post('/upload',vt, function(req, res) {
 	form.parse(req)
 
 	form.on('fileBegin', function(name, file) {
-		file.path = __dirname + '/data/' + file.name
+		file.path = __dirname + '/public/data/' + file.name
 		console.log('im file begin event')
 	})
 
@@ -58,11 +59,23 @@ function vt(req,res,next){
         })
     }else{
         res.sendStatus(401)
-
     }
 }
 
+
+
 // TODO: route for the last HACHAYAL
 // TODO: route for the all HACHAYAL {name:"", href:""}
+app.get('/all', function(req, res) {
+	// TODO: build from ng
+	fs.readdir(__dirname+"/public/data",(err,files)=>{
+        if(err){
+            res.sendStatus(500)
+        }else{
+            
+            res.json(files)
+        }
+    })
+})
 
 app.listen(1000, console.log("rock'in1000"))
