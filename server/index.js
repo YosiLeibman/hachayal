@@ -78,4 +78,4 @@ app.get('/all', function(req, res) {
     })
 })
 
-app.listen(1000, console.log("rock'in1000"))
+app.listen(80, console.log("rock'in1000"))
