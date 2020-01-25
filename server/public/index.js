@@ -73,10 +73,19 @@ window.onload = async () =>{
     const last = document.querySelector('#last-a')
     const lastd = document.querySelector('#last-a-d')
     const area6 = document.querySelector('.area6')
-    
+    const area8 = document.querySelector('.area8')
+    const na = document.querySelector('#navigateme')
+    console.log(na);
     last.href = `/data/${sorted[files.length-1]}.pdf`
     lastd.href = `/data/${sorted[files.length-1]}.pdf`
     
+
+    area8.addEventListener('mouseenter',e=>{
+        na.style.border = "burlywood solid 1px"
+    })
+    area8.addEventListener('mouseleave',e=>{
+        na.style.border = "black solid 1px"
+    })
     area6.addEventListener('mouseenter',e=>{
         last.style.color = "burlywood"
         lastd.style.color = "burlywood"
@@ -88,6 +97,41 @@ window.onload = async () =>{
         lastd.style.color = "black"
         last.style.border = "black solid 1px"
         lastd.style.border = "black solid 1px"
+        na.style.border = "black solid 1px"
     })
 }
 
+
+
+
+// =====================================
+function navigate(lat, lng) {
+    // If it's an iPhone..
+    if ((navigator.platform.indexOf("iPhone") !== -1) || (navigator.platform.indexOf("iPod") !== -1)) {
+      function iOSversion() {
+        if (/iP(hone|od|ad)/.test(navigator.platform)) {
+          // supports iOS 2.0 and later
+          var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
+          return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];
+        }
+      }
+      var ver = iOSversion() || [0];
+
+      var protocol = 'http://';
+      if (ver[0] >= 6) {
+        protocol = 'maps://';
+      }
+      window.location = protocol + 'maps.apple.com/maps?daddr=' + lat + ',' + lng + '&amp;ll=';
+    }
+    else {
+      window.open('http://maps.google.com?daddr=' + lat + ',' + lng + '&amp;ll=');
+    }
+  }
+// ====================================================
+  const changetext = document.querySelector("#changetext")
+  const changetextArr = ["להתחבר","לנשום","לחיות","ללמוד"]
+  changetext.textContent = changetextArr[Math.floor(Math.random() * changetextArr.length)]
+
+setInterval(() => {
+	changetext.textContent = changetextArr[Math.floor(Math.random() * changetextArr.length)]
+}, 5000)
